@@ -1,0 +1,866 @@
+
+
+[DD manufacturer],2
+�retici bilgileri
+�r�n tipi
+�retici
+Adres1
+Adres2
+Semt
+�ehir
+�lke
+Posta kodu
+Telefon
+Faks
+�retici kodu
+
+[DD boiler],2
+Markas�
+Cinsi
+Yak�t cinsi
+Standard�
+Max. i�letme bas�nc� (Bar)
+BBBF No
+Tipi
+Ad�
+Anma �s�l g�c� (kWatt)
+Y�ksekli�i (mm)
+Uzunlu�u (mm)
+Geni�li�i (mm)
+Su hacmi (Lt)
+A��rl��� (Kg)
+Duman kanal� ba�lant� a�z� (mm)
+Gaz taraf� direnci (Pa)
+Kazan verimi (%)
+A��klama
+�retici kodu
+
+[DD burner],2
+Markas�
+Kapasite min. (kWatt)
+Kapasite max. (kWatt)
+Yak�t cinsi
+Standard�
+Max. gaz giri� bas�nc� (mbar)
+Motor g�c� (kWatt)
+BBBF No
+Tipi
+Ad�
+A��rl��� (Kg)
+A��klama
+�retici kodu
+
+[DD water heater],2
+Markas�
+Standard�
+BBBF No
+Tipi
+Ad�
+Su hacmi (Lt)
+Y�ksekli�i (mm)
+Uzunlu�u (mm)
+Geni�li�i (mm)
+A��rl��� (Kg)
+A��klama
+�retici kodu
+
+[DD chiller],2
+Markas�
+Standard�
+BBBF No
+�malat �ekli
+Tipi
+Kapasite (kWatt)
+A��rl��� (Kg)
+Motor g�c� (kWatt)
+Kondenser alan� (m2)
+Evap. su hacmi (Lt)
+Evap. ba�lant� a�z� (")
+Kond. ba�lant� a�z� (")
+A��klama
+�retici kodu
+
+[DD cold tower],2
+Markas�
+Standard�
+BBBF No
+Tipi
+Kapasite (Kcal/h)
+Kapasite (m3/h)
+A��rl��� (Kg)
+Motor g�c� (kWatt)
+A��klama
+�retici kodu
+
+[DD exp. tank],2
+Markas�
+Standard�
+BBBF No
+Tipi
+Ad�
+Su hacmi (Lt)
+�al��ma bas�nc� (bar)
+Y�ksekli�i (mm)
+Uzunlu�u (mm)
+Geni�li�i (mm)
+A��rl��� (Kg)
+Giri� �ap� (")
+A��klama
+�retici kodu
+
+[DD air pres. tank],2
+Markas�
+Standard�
+BBBF No
+Tipi
+Tank hacmi (m3)
+Kapasite1 (m3/h)
+Basma y�k1 (Pa)
+Kapasite2 (m3/h)
+Basma y�k2 (Pa)
+Kapasite3 (m3/h)
+Basma y�k3 (Pa)
+Kapasite4 (m3/h)
+Basma y�k4 (Pa)
+Kapasite5 (m3/h)
+Basma y�k5 (Pa)
+Devir (d/d)
+Motor g�c� (kWatt)
+A��rl��� (Kg)
+Ba�lant� a�z� (")
+A��klama
+�retici kodu
+
+[DD pump],2
+Markas�
+Standard�
+BBBF No
+Tipi
+Kapasite1 (m3/h)
+Basma y�k1 (Pa)
+Kapasite2 (m3/h)
+Basma y�k2 (Pa)
+Kapasite3 (m3/h)
+Basma y�k3 (Pa)
+Kapasite4 (m3/h)
+Basma y�k4 (Pa)
+Kapasite5 (m3/h)
+Basma y�k5 (Pa)
+Devir (d/d)
+Motor g�c� (kWatt)
+A��rl��� (Kg)
+Ba�lant� a�z� (")
+A��klama
+�retici kodu
+
+[Boiler window],2
+Kazan hesab�
+Genel
+Hesap
+Se�im
+A��klama
+Yak�t t�r�
+Is� ihtiyac� Q(Watt)
+Da��t�m borular�
+Yak�t tipi
+Kazan brm.y�z.al.�s� mik. (Watt/m2)
+Adet
+Yedek
+Kazan kapasitesi (Watt)
+Is�tma y�zeyi (m2)
+K�t�phane
+Marka
+Tip
+S�v�/Gaz
+Kat�
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+S�cak mahalden izoleli
+So�uk mahalden izoleli
+So�uk mahalden
+
+[Burner window],2
+Br�l�r hesab�
+Genel
+Hesap
+Se�im
+A��klama
+Kazan kapasitesi (Watt)
+Yak�t cinsi
+Yak�t alt �s�l de�eri (kJ/Kg)
+Br�l�r verimi (%)
+Adet
+Kapasite (Kg/h)
+K�t�phane
+Marka
+Tip
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Fuel quantity calculation],2
+Yak�t miktar� hesab�
+Genel
+Hesap
+Sonu�lar
+A��klama
+Yak�t tipi
+Kazan kapasitesi (Watt)
+Yak�t tipi
+Yak�t alt �s�l de�eri (kj/Kg)
+Yak�t �s�nma �s�s� (kj/Kg�C)
+Yak�t yo�unlu�u (Kg/m3)
+G�nl�k �al��ma zaman� (h)
+Y�ll�k �al��ma zaman� (Day)
+Kazan verimi (%)
+Depolama s�resi (Day)
+Br�l�r kapasitesi Gy(Kg/h)
+Y�ll�k yak�t miktar� (Kg/Yea)
+Depolama alan� F(m2)
+Depolama hacmi V(m3)
+Is�t�c� kapasitesi Qy(Watt)
+S�v�
+Kat�
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Exp. tank open type],2
+Genle�me tank� a��k tip
+Genel
+Hesap
+A��klama
+Kazan kapasitesi (Watt)
+Is�t�c� sistem tipi
+Tank hacmi (Lt)
+Emniyet gidi�
+Emniyet d�n��
+Haberci
+Sistemdeki su miktar� (Lt)
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Exp. tank close type],2
+Genle�me tank� kapal� tip
+Genel
+Hesap
+Se�im
+A��klama
+Sistem kapasitesi Q(Watt)
+Cihaz t�r�
+Sistem su miktar� (Lt)
+Static y�kseklik (m)
+Emniyet v. a�ma bas�nc� (bar)
+Gidi� su s�cakl��� tg(�C)
+Tank hacmi V(Lt)
+K�t�phane
+Marka
+Tip
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Pump calculate],2
+Pompa debisi ve g�c� hesab�
+Genel
+Hesap
+Se�im
+A��klama
+Toplam kapasite (Watt)
+Bas�n� kayb� (kPa)
+S�cakl�k fark� dt(�C)
+Pompa verimi (%)
+Adedi
+Yedek adedi
+Debisi V(m3/h)
+G�c� N(Hp)
+G�c� N(kWatt)
+K�t�phane
+Marka
+Tip
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+&Grafik
+
+[Chiller and cold tower calculation],2
+So�utma grubu ve so�utma kulesi
+Genel
+Hesap
+Sonu�lar
+So�utma grubu se�imi
+So�utma kulesi se�imi
+A��klama
+Chiller tipi
+Toplam kapasite Q(Watt)
+Chiller giri� s�c.(�C)
+Chiller ��k�� s�c.(�C)
+Chiller s�cakl�k fark�(�C)
+Chiller adedi
+Chiller yedek adedi
+SK. giri� s�c. (�C)
+SK. ��k�� s�c. (�C)
+SK. adedi
+Chiller kapasitesi Qe(Watt)
+SK kapasitesi. Qct(Watt)
+SK debisi V(m3/h)
+Hava so�.
+Su so�.
+K�t�phane
+Marka
+Tipi
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Air pressure tank],2
+Kullanma so�uksu/Hidrofor hesab�
+Genel
+Hesap
+Bilgiler
+Se�im
+A��klama
+Bina tipi
+Yap�n�n g�nl�k su sarfiyat� (lt/g�n)
+Yap�daki toplam insan say�s�
+Depolama s�resi (g�n)
+Depo hacmi (m3)
+Hidrofor debisi (m3/h)
+Boru bas�n� kayb� (kPa)
+Di�er kay�plar (kPa)
+T. bas�n� kayb� (kPa)
+Cihaz t�r�
+Su iht. (YB)
+Su iht. (Lt)
+Adet
+K�t�phane
+Marka
+Tipi
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+&Grafik
+
+[Water heater calculation],2
+Kullanma s�caksu/Boyler hesab�
+Genel
+Bilgi
+Hesap
+Se�im
+A��klama
+Bina tipi
+Kullanma f.
+Depolama f.
+Giri� t(�C)
+��k�� t(�C)
+Is�tma suyu ort. s�c.(�C)
+Cihaz t�r�
+Su iht. (Lt/h)
+Adet
+Ortalama ani iht.(Lt/h)
+Boyler hacmi (Lt)
+Hesaplanan
+Se�ilen
+Is�t�c� kapasitesi (Watt)
+Is�t�c� alan� (m2)
+K�t�phane
+Marka
+Tip
+&�abuk se�im
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Chimney calculation],2
+DIN 4705 Is�tma bacas� hesab�
+Genel
+Bilgiler
+Hesap
+�zel par�alar
+Sonu�lar
+A��klama
+Ba�lant� kan. gaz h�z� (m/sec)
+Baca gaz� h�z� (m/sec)
+Baca gaz� s�cakl��� (�C)
+D�� s�cakl�k (�C)
+Kazan kapasitesi. Q
+Kazan verimi (%)
+Baca uzunlu�u L(m)
+Ba�lant� kan. uz. L(m)
+Yak�t tipi
+Br�l�r tipi
+Baca malzemesi
+Ba�.kan. malz.
+�zel par�a listesi
+Adet
+Se�ilen �zel par�alar
+Kazan kayb� PW (Pa)
+Ba�.kan. kayb� (Pa)
+Baca kayb� (Pa)
+Toplam kay�p P (Pa)
+Kare a(mm)
+Dikd. axb (mm)
+Daire. R(mm)
+Atmosferik
+�flemeli
+Do�algaz
+Fuel-Oil
+K�m�r
+Odun
+Lpg
+Havagaz�
+Ba�lant� kan.
+Baca
+&Hesapla
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Heating/Cooling pipe diameter],2
+Is�tma/So�utma boru �ap�
+Genel
+Tesiat bilgileri
+Debi bilgileri
+Boru �ap�
+�zel par�alar
+A��klama
+Min.h�z (m/sn)
+Max.h�z (m/sn)
+Min.�s�
+Max.�s�
+Gidi� (�C)
+D�n�� (�C)
+Fark (�C)
+Ak��kan tipi
+Ad�
+Ba�lant�s�
+Par�a y�k�
+Hat y�k�
+Uz. L(m)
+Boru tipi
+Ad�
+Debisi V(m3/h)
+H�z (m/sn)
+Boru �ap� DN (mm) - (inc)
+Bas�n� kayb� R(Pa/m)
+Ad�
+Ba�lant� �ekli
+�zel par�a ad�
+(ksi)
+Adet
+Toplam ksi
+T. BK. PD R(Pa)
+Vidal�
+Flan�l�
+&B�y�k liste
+&K���k liste
+&Ekle
+&Sil
+A&raya
+&Uygula
+&Hesapla
+&Kritik hat
+&Metraj
+K&apat
+&Kaydet
+&Yeni
+&Sil
+
+[Heating/Cooling pipe diameter list1],2
+Ad�
+Ba�lant�s�
+Par�a y�k� (Watt)
+Hat y�k� (Watt)
+Uz. L(m)
+Debi V(m3/h)
+H�z (m/sn)
+Boru �ap� DN (mm) - (inc)
+Bas�n� kayb� R(Pa/m)
+Bas�n� kayb� RL(Pa)
+�zel par�a kay�p k. f(ksi)
+�zel par�a kay�b� R(Pa)
+Toplam kay�p R(Pa)
+Boru tipi
+
+[Special devices list],2
+Ad�
+Ba�lant� �ekli
+ksi
+Adet
+Kay�p k.(ksi)
+Toplam bas�n� kay�p R(Pa)
+
+[Domestic water pipe diameter],2
+Kullanma suyu boru �ap�
+Genel
+Tesisat bilgileri
+Debi bilgileri
+Boru �ap�
+�zel Par�alar
+A��klama
+Min.h�z (m/sn)
+Max.h�z (m/sn)
+Min.YB/MB
+Max.YB/MB
+Su s�c.(�C)
+Ak��kan tipi
+Ad�
+Ba�lant�s�
+Su miktar� (YB/MB)
+Su miktar� (Lt/sn)
+Hat su miktar�
+Uz. L(m)
+Boru tipi
+Ad�
+Debisi V(Lt/sn)
+H�z (m/sn)
+Boru �ap� DN (mm) - (inc)
+Bas�n� kayb� R(Pa/m)
+Ad�
+Ba�lant� �ekli
+�zel par�a ad�
+(ksi)
+Adet
+Toplam ksi
+T. BK. PD R(Pa)
+Vidal�
+Flan�l�
+&B�y�k liste
+&K���k liste
+&Ekle
+&Sil
+&Araya
+&Uygula
+&Hesap
+&Kritik hat
+&Metraj
+&Kapat
+&Kaydet
+&Yeni
+&Sil
+
+[Domestic water pipe diameter list],2
+Ad�
+Ba�lant�s�
+Su miktar� (YB/MB)
+Hat y�k� (YB/MB)
+Uz. (m)
+Debi Q(Lt/sn)
+H�z V(m/sn)
+Boru �ap� DN (mm) - (inc)
+Bas�n� kayb� R(Pa/m)
+Bas�n� kayb� RL(Pa)
+�zel par�a kay�p k. f(ksi)
+�zel par�a kay�b� R(Pa)
+Toplam bas�n� kayb� RL(Pa)
+Boru tipi
+
+[Critical line selection],2
+Kritik hat
+Toplam bas�n� kayb� RL+Z(Pa)
+&Yazd�r
+&Kapat
+
+[Material list],2
+Malzeme listesi
+No
+A��klama
+Miktar
+Birim
+Notlar
+Boru
+M.
+Ad.
+&Yazd�r
+&Kapat
+
+[Print titles2],2
+Proje no
+Revizyon
+Proje ad�
+Konu
+Hesaplayan
+Kontrol
+Tarih
+Sayfa no
+K�t�phane
+Marka
+Tipi
+SK K�t�phane
+SK Marka
+SK Tipi
+
+[Print titles3],2
+KAZAN HESABI
+BACA KES�T� HESABI
+BR�L�R HESABI
+YAKIT M�KTARI HESABI
+A�IK GENLE�ME DEPOSU HESABI
+KAPALI GENLE�ME DEPOSU HESABI
+POMPA DEB�S� ve G�C� HESABI
+SO�UTMA GRUBU/KULES� HESABI
+KULLANMA SICAK SU ve BOYLER HESABI
+KULLANMA SO�UK SU ve H�DROFOR HESABI
+TEM�Z SU BORU �API ve BASIN� KAYBI HESABI
+ISITMA/SO�UTMA BORU �API ve BASIN� KAYBI HESABI
+�ZEL PAR�ALAR
+KR�T�K HAT
+MALZEME L�STES�
+
+;; KAZAN
+[Print titles4],2
+Yak�t t�r�
+Is� ihtiyac� Q(Watt)
+Da��t�m borular�
+Yak�t tipi
+Kazan brm.y�z.al.�s� mik. (Watt/m2)
+Adet
+Yedek
+Kazan kapasitesi (Watt)
+Is�tma y�zeyi (m2)
+S�v�/Gaz
+Kat�
+S�cak mahalden izoleli
+So�uk mahalden izoleli
+So�uk mahalden
+F = Qh x (1 + Zr) / K
+Qk = Qh * (Kap. b�l���m�) x 1.1
+
+;; BR�L�R
+[Print titles5],2
+Kazan kapasitesi (Watt)
+Yak�t cinsi
+Yak�t alt �s�l de�eri (kJ/Kg)
+Br�l�r verimi (%)
+Adet
+Kapasite (Kg/h)
+Gy = (Qk / (Hu x n)) / Adet
+
+;; YAKIT DEPOSU
+[Print titles6],2
+Yak�t t�r�
+Kazan kapasitesi (Watt)
+Yak�t tipi
+Yak�t alt �s�l de�eri (kJ/Kg)
+Yak�t �s�nma �s�s� (kJ/Kg�C)
+Yak�t yo�unlu�u (Kg/m3)
+G�nl�k �al��ma zaman� (h)
+Y�ll�k �al��ma zaman� (Day)
+Kazan verimi (%)
+Depolama s�resi (Day)
+Br�l�r kapasitesi Gy(Kg/h)
+Y�ll�k yak�t miktar� (Kg/Yea)
+Depolama alan� F(m2)
+Depolama hacmi V(m3)
+Is�t�c� kapasitesi Qy(Kcal/h)
+S�v�
+Kat�
+By = (Qk x Zg x Zy) / (2 x Hu x n)
+V = ((By / Zy) / 860) x Ds
+Qy = Gy x c x (t2-t1)
+
+;; A�IK GEN DEP
+[Print titles7],2
+Kazan kapasitesi (Watt)
+Tesisatta d�k�m kazan, panel radyat�r veya konvekt�r kullan�l�yor
+Tank hacmi (Lt)
+Emniyet gidi�
+Emniyet d�n��
+Haberci
+dg = 15 + (1.40 * Sqr(Qk / 1000))
+dd = 15 + (0.93 * Sqr(Qk / 1000))
+dh = 15
+
+;; KAPALI GEN DEP
+[Print titles8],2
+Sistem kapasitesi Q(Watt)
+Cihaz t�r�
+Sistem su miktar� (Lt)
+Static y�kseklik (m)
+Emniyet v. a�ma bas�nc� (bar)
+Gidi� su s�c. tg(�C)
+Tank hacmi V(Lt)
+Vs (lt) = w (lt/kW) x Qk (kW)
+Ve (lt) = n x Vs
+Vv (lt) = %0.5 x Vs
+Po (Pa) = Phst + Peft
+Pe (Pa) = Pa�ma - Pkapama
+Vn (lt) = (Vv + Ve) x ((Pe + 1) / (Pe - Po))
+
+;; POMPA
+[Print titles9],2
+Toplam kapasite (Watt)
+Bas�n� kayb� (kPa)
+S�cakl�k fark� dt(�C)
+Pompa verimi (%)
+Adedi
+Yedek adedi
+Debisi V(m3/h)
+G�c� N(Hp)
+G�c� N(kWatt)
+Qp = (Qk / (dt x 1000)) / Pompa adedi
+Nel = ((Qpomp x H x 1000) / (3600 x n x 75)) x 1.15
+
+;; SG ve SK
+[Print titles10],2
+Chiller tipi
+Toplam kapasite Q(Watt)
+Chiller giri� s�c.(�C)
+Chiller ��k�� s�c.(�C)
+Chiller s�cakl�k fark�(�C)
+Chiller adedi
+Chiller yedek adedi
+SK. giri� s�c. (�C)
+SK. ��k�� s�c. (�C)
+SK. adedi
+Chiller kapasitesi Qe(Watt)
+SK kapasitesi. Qct(Watt)
+SK debisi V(m3/h)
+Hava so�.
+Su so�.
+
+;; Baca kesiti
+[Print titles11],2
+Ba�lant� kan. gaz h�z� (m/sec)
+Baca gaz� h�z� (m/sec)
+Baca gaz� s�cakl��� (�C)
+D�� s�cakl�k (�C)
+Kazan kapasitesi. Q
+Kazan verimi (%)
+Baca uzunlu�u L(m)
+Ba�lant� kan. uz. L(m)
+Yak�t tipi
+Br�l�r tipi
+Baca malzemesi
+Ba�.kan. malz.
+Kazan kayb� PW (Pa)
+Ba�.kan. kayb� (Pa)
+Baca kayb� (Pa)
+Toplam kay�p P (Pa)
+Kare a(mm)
+Dikd. axb (mm)
+Daire. R(mm)
+Atmosferik
+�flemeli
+Do�algaz
+Fuel-Oil
+K�m�r
+Odun
+Lpg
+Havagaz�
+Ba�lant� kan.
+Baca
+Se�ilen �zel par�alar ve ksi'leri
+
+;; Boyler
+[Print titles12],2
+Bina tipi
+Kullanma f.
+Depolama f.
+Giri� t(�C)
+��k�� t(�C)
+Is�tma suyu ort. s�c.(�C)
+Adet
+Ortalama ani iht.(Lt/h)
+Hesaplanan boyler hacmi (Lt)
+Se�ilen boyler hacmi (Lt)
+Is�t�c� kapasitesi (Watt)
+Is�t�c� alan� (m2)
+Cihaz t�r�, Su iht. (Lt/h), Adet
+
+;; Hidrofor
+[Print titles13],2
+Bina tipi
+G�nl�k su iht. (Lt/day)
+Insan say�s�
+Depolama s�resi (Day)
+Adet
+Depo hacmi (m3)
+Hidrofor hacmi (m3/h)
+Boru bas�n� kayb� (kPa)
+Di�er kay�plar (kPa)
+Toplam bas�n� kayb� (kPa)
+Cihaz t�r�, Su iht. (YB), Su iht. (Lt), Adet
+
+[Print titles14],2
+Min / Mak H�z (m/sn)
+Min / Mak Is�
+Gidi� / D�n�� S�c. (�C)
+Ak��kan tipi
+
+[Print titles15],2
+Ad�
+Ba�lant�s�
+Par�a y�k�
+Hat y�k�
+Uzunluk L (m)
+Debisi V (m3/h)
+H�z (m/sn)
+Boru �ap� (mm) - (inc)
+Bas�n� kayb� R(Pa/m)
+Bas�n� kayb� RL(Pa)
+�zel par�a f (ksi)
+�zel par�a BK. Z(Pa)
+Toplam bas�n� kayb� RL+Z(Pa)
+Boru tipi
+
+[Print titles16],2
+Ad�
+�zel par�a a��klamas�
+Ba�lant� �ekli
+�zel par�a f (ksi)
+Adet
+Toplam ksi
+�zel par�a bas�n� kayb� Z(Pa)
+Vidal�
+Flan�l�
+
+;;TEMIZSU
+[Print titles17],2
+Min / Mak H�z (m/sn)
+Min / Mak Y�k (YB/MB)
+Ak��kan s�c. (�C)
+Ak��kan tipi
+
+;;TEMIZSU BK
+[Print titles18],2
+Ad�
+Ba�lant�s�
+Y�k� Q (YB)
+Hat y�k� Qh (YB/MB)
+Uzunluk L (m)
+Debisi V (Lt/sn)
+H�z (m/sn)
+Boru �ap� (mm) - (inc)
+Bas�n� kayb� R(Pa/m)
+Bas�n� kayb� RL(Pa)
+�zel par�a f (ksi)
+�zel par�a BK. Z(Pa)
+Toplam bas�n� kayb� RL+Z(Pa)
+Boru tipi
+
+;;METRAJ
+[Print titles19],2
+No
+A��klama
+Miktar
+Birim
+Notlar

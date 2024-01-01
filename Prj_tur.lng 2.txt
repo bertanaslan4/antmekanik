@@ -1,0 +1,866 @@
+
+
+[DD manufacturer],2
+Üretici bilgileri
+Ürün tipi
+Üretici
+Adres1
+Adres2
+Semt
+Þehir
+Ülke
+Posta kodu
+Telefon
+Faks
+Üretici kodu
+
+[DD boiler],2
+Markasý
+Cinsi
+Yakýt cinsi
+Standardý
+Max. iþletme basýncý (Bar)
+BBBF No
+Tipi
+Adý
+Anma ýsýl gücü (kWatt)
+Yüksekliði (mm)
+Uzunluðu (mm)
+Geniþliði (mm)
+Su hacmi (Lt)
+Aðýrlýðý (Kg)
+Duman kanalý baðlantý aðzý (mm)
+Gaz tarafý direnci (Pa)
+Kazan verimi (%)
+Açýklama
+Üretici kodu
+
+[DD burner],2
+Markasý
+Kapasite min. (kWatt)
+Kapasite max. (kWatt)
+Yakýt cinsi
+Standardý
+Max. gaz giriþ basýncý (mbar)
+Motor gücü (kWatt)
+BBBF No
+Tipi
+Adý
+Aðýrlýðý (Kg)
+Açýklama
+Üretici kodu
+
+[DD water heater],2
+Markasý
+Standardý
+BBBF No
+Tipi
+Adý
+Su hacmi (Lt)
+Yüksekliði (mm)
+Uzunluðu (mm)
+Geniþliði (mm)
+Aðýrlýðý (Kg)
+Açýklama
+Üretici kodu
+
+[DD chiller],2
+Markasý
+Standardý
+BBBF No
+Ýmalat þekli
+Tipi
+Kapasite (kWatt)
+Aðýrlýðý (Kg)
+Motor gücü (kWatt)
+Kondenser alaný (m2)
+Evap. su hacmi (Lt)
+Evap. baðlantý aðzý (")
+Kond. baðlantý aðzý (")
+Açýklama
+Üretici kodu
+
+[DD cold tower],2
+Markasý
+Standardý
+BBBF No
+Tipi
+Kapasite (Kcal/h)
+Kapasite (m3/h)
+Aðýrlýðý (Kg)
+Motor gücü (kWatt)
+Açýklama
+Üretici kodu
+
+[DD exp. tank],2
+Markasý
+Standardý
+BBBF No
+Tipi
+Adý
+Su hacmi (Lt)
+Çalýþma basýncý (bar)
+Yüksekliði (mm)
+Uzunluðu (mm)
+Geniþliði (mm)
+Aðýrlýðý (Kg)
+Giriþ çapý (")
+Açýklama
+Üretici kodu
+
+[DD air pres. tank],2
+Markasý
+Standardý
+BBBF No
+Tipi
+Tank hacmi (m3)
+Kapasite1 (m3/h)
+Basma yük1 (Pa)
+Kapasite2 (m3/h)
+Basma yük2 (Pa)
+Kapasite3 (m3/h)
+Basma yük3 (Pa)
+Kapasite4 (m3/h)
+Basma yük4 (Pa)
+Kapasite5 (m3/h)
+Basma yük5 (Pa)
+Devir (d/d)
+Motor gücü (kWatt)
+Aðýrlýðý (Kg)
+Baðlantý aðzý (")
+Açýklama
+Üretici kodu
+
+[DD pump],2
+Markasý
+Standardý
+BBBF No
+Tipi
+Kapasite1 (m3/h)
+Basma yük1 (Pa)
+Kapasite2 (m3/h)
+Basma yük2 (Pa)
+Kapasite3 (m3/h)
+Basma yük3 (Pa)
+Kapasite4 (m3/h)
+Basma yük4 (Pa)
+Kapasite5 (m3/h)
+Basma yük5 (Pa)
+Devir (d/d)
+Motor gücü (kWatt)
+Aðýrlýðý (Kg)
+Baðlantý aðzý (")
+Açýklama
+Üretici kodu
+
+[Boiler window],2
+Kazan hesabý
+Genel
+Hesap
+Seçim
+Açýklama
+Yakýt türü
+Isý ihtiyacý Q(Watt)
+Daðýtým borularý
+Yakýt tipi
+Kazan brm.yüz.al.ýsý mik. (Watt/m2)
+Adet
+Yedek
+Kazan kapasitesi (Watt)
+Isýtma yüzeyi (m2)
+Kütüphane
+Marka
+Tip
+Sývý/Gaz
+Katý
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+Sýcak mahalden izoleli
+Soðuk mahalden izoleli
+Soðuk mahalden
+
+[Burner window],2
+Brülör hesabý
+Genel
+Hesap
+Seçim
+Açýklama
+Kazan kapasitesi (Watt)
+Yakýt cinsi
+Yakýt alt ýsýl deðeri (kJ/Kg)
+Brülör verimi (%)
+Adet
+Kapasite (Kg/h)
+Kütüphane
+Marka
+Tip
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Fuel quantity calculation],2
+Yakýt miktarý hesabý
+Genel
+Hesap
+Sonuçlar
+Açýklama
+Yakýt tipi
+Kazan kapasitesi (Watt)
+Yakýt tipi
+Yakýt alt ýsýl deðeri (kj/Kg)
+Yakýt ýsýnma ýsýsý (kj/Kg°C)
+Yakýt yoðunluðu (Kg/m3)
+Günlük çalýþma zamaný (h)
+Yýllýk çalýþma zamaný (Day)
+Kazan verimi (%)
+Depolama süresi (Day)
+Brülör kapasitesi Gy(Kg/h)
+Yýllýk yakýt miktarý (Kg/Yea)
+Depolama alaný F(m2)
+Depolama hacmi V(m3)
+Isýtýcý kapasitesi Qy(Watt)
+Sývý
+Katý
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Exp. tank open type],2
+Genleþme tanký açýk tip
+Genel
+Hesap
+Açýklama
+Kazan kapasitesi (Watt)
+Isýtýcý sistem tipi
+Tank hacmi (Lt)
+Emniyet gidiþ
+Emniyet dönüþ
+Haberci
+Sistemdeki su miktarý (Lt)
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Exp. tank close type],2
+Genleþme tanký kapalý tip
+Genel
+Hesap
+Seçim
+Açýklama
+Sistem kapasitesi Q(Watt)
+Cihaz türü
+Sistem su miktarý (Lt)
+Static yükseklik (m)
+Emniyet v. açma basýncý (bar)
+Gidiþ su sýcaklýðý tg(°C)
+Tank hacmi V(Lt)
+Kütüphane
+Marka
+Tip
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Pump calculate],2
+Pompa debisi ve gücü hesabý
+Genel
+Hesap
+Seçim
+Açýklama
+Toplam kapasite (Watt)
+Basýnç kaybý (kPa)
+Sýcaklýk farký dt(°C)
+Pompa verimi (%)
+Adedi
+Yedek adedi
+Debisi V(m3/h)
+Gücü N(Hp)
+Gücü N(kWatt)
+Kütüphane
+Marka
+Tip
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+&Grafik
+
+[Chiller and cold tower calculation],2
+Soðutma grubu ve soðutma kulesi
+Genel
+Hesap
+Sonuçlar
+Soðutma grubu seçimi
+Soðutma kulesi seçimi
+Açýklama
+Chiller tipi
+Toplam kapasite Q(Watt)
+Chiller giriþ sýc.(°C)
+Chiller çýkýþ sýc.(°C)
+Chiller sýcaklýk farký(°C)
+Chiller adedi
+Chiller yedek adedi
+SK. giriþ sýc. (°C)
+SK. çýkýþ sýc. (°C)
+SK. adedi
+Chiller kapasitesi Qe(Watt)
+SK kapasitesi. Qct(Watt)
+SK debisi V(m3/h)
+Hava soð.
+Su soð.
+Kütüphane
+Marka
+Tipi
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Air pressure tank],2
+Kullanma soðuksu/Hidrofor hesabý
+Genel
+Hesap
+Bilgiler
+Seçim
+Açýklama
+Bina tipi
+Yapýnýn günlük su sarfiyatý (lt/gün)
+Yapýdaki toplam insan sayýsý
+Depolama süresi (gün)
+Depo hacmi (m3)
+Hidrofor debisi (m3/h)
+Boru basýnç kaybý (kPa)
+Diðer kayýplar (kPa)
+T. basýnç kaybý (kPa)
+Cihaz türü
+Su iht. (YB)
+Su iht. (Lt)
+Adet
+Kütüphane
+Marka
+Tipi
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+&Grafik
+
+[Water heater calculation],2
+Kullanma sýcaksu/Boyler hesabý
+Genel
+Bilgi
+Hesap
+Seçim
+Açýklama
+Bina tipi
+Kullanma f.
+Depolama f.
+Giriþ t(°C)
+Çýkýþ t(°C)
+Isýtma suyu ort. sýc.(°C)
+Cihaz türü
+Su iht. (Lt/h)
+Adet
+Ortalama ani iht.(Lt/h)
+Boyler hacmi (Lt)
+Hesaplanan
+Seçilen
+Isýtýcý kapasitesi (Watt)
+Isýtýcý alaný (m2)
+Kütüphane
+Marka
+Tip
+&Çabuk seçim
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Chimney calculation],2
+DIN 4705 Isýtma bacasý hesabý
+Genel
+Bilgiler
+Hesap
+Özel parçalar
+Sonuçlar
+Açýklama
+Baðlantý kan. gaz hýzý (m/sec)
+Baca gazý hýzý (m/sec)
+Baca gazý sýcaklýðý (°C)
+Dýþ sýcaklýk (°C)
+Kazan kapasitesi. Q
+Kazan verimi (%)
+Baca uzunluðu L(m)
+Baðlantý kan. uz. L(m)
+Yakýt tipi
+Brülör tipi
+Baca malzemesi
+Bað.kan. malz.
+Özel parça listesi
+Adet
+Seçilen özel parçalar
+Kazan kaybý PW (Pa)
+Bað.kan. kaybý (Pa)
+Baca kaybý (Pa)
+Toplam kayýp P (Pa)
+Kare a(mm)
+Dikd. axb (mm)
+Daire. R(mm)
+Atmosferik
+Üflemeli
+Doðalgaz
+Fuel-Oil
+Kömür
+Odun
+Lpg
+Havagazý
+Baðlantý kan.
+Baca
+&Hesapla
+&Kaydet
+&Yeni
+&Sil
+K&apat
+
+[Heating/Cooling pipe diameter],2
+Isýtma/Soðutma boru çapý
+Genel
+Tesiat bilgileri
+Debi bilgileri
+Boru çapý
+Özel parçalar
+Açýklama
+Min.hýz (m/sn)
+Max.hýz (m/sn)
+Min.ýsý
+Max.ýsý
+Gidiþ (°C)
+Dönüþ (°C)
+Fark (°C)
+Akýþkan tipi
+Adý
+Baðlantýsý
+Parça yükü
+Hat yükü
+Uz. L(m)
+Boru tipi
+Adý
+Debisi V(m3/h)
+Hýz (m/sn)
+Boru çapý DN (mm) - (inc)
+Basýnç kaybý R(Pa/m)
+Adý
+Baðlantý þekli
+Özel parça adý
+(ksi)
+Adet
+Toplam ksi
+T. BK. PD R(Pa)
+Vidalý
+Flanþlý
+&Büyük liste
+&Küçük liste
+&Ekle
+&Sil
+A&raya
+&Uygula
+&Hesapla
+&Kritik hat
+&Metraj
+K&apat
+&Kaydet
+&Yeni
+&Sil
+
+[Heating/Cooling pipe diameter list1],2
+Adý
+Baðlantýsý
+Parça yükü (Watt)
+Hat yükü (Watt)
+Uz. L(m)
+Debi V(m3/h)
+Hýz (m/sn)
+Boru çapý DN (mm) - (inc)
+Basýnç kaybý R(Pa/m)
+Basýnç kaybý RL(Pa)
+Özel parça kayýp k. f(ksi)
+Özel parça kayýbý R(Pa)
+Toplam kayýp R(Pa)
+Boru tipi
+
+[Special devices list],2
+Adý
+Baðlantý þekli
+ksi
+Adet
+Kayýp k.(ksi)
+Toplam basýnç kayýp R(Pa)
+
+[Domestic water pipe diameter],2
+Kullanma suyu boru çapý
+Genel
+Tesisat bilgileri
+Debi bilgileri
+Boru çapý
+Özel Parçalar
+Açýklama
+Min.hýz (m/sn)
+Max.hýz (m/sn)
+Min.YB/MB
+Max.YB/MB
+Su sýc.(°C)
+Akýþkan tipi
+Adý
+Baðlantýsý
+Su miktarý (YB/MB)
+Su miktarý (Lt/sn)
+Hat su miktarý
+Uz. L(m)
+Boru tipi
+Adý
+Debisi V(Lt/sn)
+Hýz (m/sn)
+Boru çapý DN (mm) - (inc)
+Basýnç kaybý R(Pa/m)
+Adý
+Baðlantý þekli
+Özel parça adý
+(ksi)
+Adet
+Toplam ksi
+T. BK. PD R(Pa)
+Vidalý
+Flanþlý
+&Büyük liste
+&Küçük liste
+&Ekle
+&Sil
+&Araya
+&Uygula
+&Hesap
+&Kritik hat
+&Metraj
+&Kapat
+&Kaydet
+&Yeni
+&Sil
+
+[Domestic water pipe diameter list],2
+Adý
+Baðlantýsý
+Su miktarý (YB/MB)
+Hat yükü (YB/MB)
+Uz. (m)
+Debi Q(Lt/sn)
+Hýz V(m/sn)
+Boru çapý DN (mm) - (inc)
+Basýnç kaybý R(Pa/m)
+Basýnç kaybý RL(Pa)
+Özel parça kayýp k. f(ksi)
+Özel parça kayýbý R(Pa)
+Toplam basýnç kaybý RL(Pa)
+Boru tipi
+
+[Critical line selection],2
+Kritik hat
+Toplam basýnç kaybý RL+Z(Pa)
+&Yazdýr
+&Kapat
+
+[Material list],2
+Malzeme listesi
+No
+Açýklama
+Miktar
+Birim
+Notlar
+Boru
+M.
+Ad.
+&Yazdýr
+&Kapat
+
+[Print titles2],2
+Proje no
+Revizyon
+Proje adý
+Konu
+Hesaplayan
+Kontrol
+Tarih
+Sayfa no
+Kütüphane
+Marka
+Tipi
+SK Kütüphane
+SK Marka
+SK Tipi
+
+[Print titles3],2
+KAZAN HESABI
+BACA KESÝTÝ HESABI
+BRÜLÖR HESABI
+YAKIT MÝKTARI HESABI
+AÇIK GENLEÞME DEPOSU HESABI
+KAPALI GENLEÞME DEPOSU HESABI
+POMPA DEBÝSÝ ve GÜCÜ HESABI
+SOÐUTMA GRUBU/KULESÝ HESABI
+KULLANMA SICAK SU ve BOYLER HESABI
+KULLANMA SOÐUK SU ve HÝDROFOR HESABI
+TEMÝZ SU BORU ÇAPI ve BASINÇ KAYBI HESABI
+ISITMA/SOÐUTMA BORU ÇAPI ve BASINÇ KAYBI HESABI
+ÖZEL PARÇALAR
+KRÝTÝK HAT
+MALZEME LÝSTESÝ
+
+;; KAZAN
+[Print titles4],2
+Yakýt türü
+Isý ihtiyacý Q(Watt)
+Daðýtým borularý
+Yakýt tipi
+Kazan brm.yüz.al.ýsý mik. (Watt/m2)
+Adet
+Yedek
+Kazan kapasitesi (Watt)
+Isýtma yüzeyi (m2)
+Sývý/Gaz
+Katý
+Sýcak mahalden izoleli
+Soðuk mahalden izoleli
+Soðuk mahalden
+F = Qh x (1 + Zr) / K
+Qk = Qh * (Kap. bölüþümü) x 1.1
+
+;; BRÜLÖR
+[Print titles5],2
+Kazan kapasitesi (Watt)
+Yakýt cinsi
+Yakýt alt ýsýl deðeri (kJ/Kg)
+Brülör verimi (%)
+Adet
+Kapasite (Kg/h)
+Gy = (Qk / (Hu x n)) / Adet
+
+;; YAKIT DEPOSU
+[Print titles6],2
+Yakýt türü
+Kazan kapasitesi (Watt)
+Yakýt tipi
+Yakýt alt ýsýl deðeri (kJ/Kg)
+Yakýt ýsýnma ýsýsý (kJ/Kg°C)
+Yakýt yoðunluðu (Kg/m3)
+Günlük çalýþma zamaný (h)
+Yýllýk çalýþma zamaný (Day)
+Kazan verimi (%)
+Depolama süresi (Day)
+Brülör kapasitesi Gy(Kg/h)
+Yýllýk yakýt miktarý (Kg/Yea)
+Depolama alaný F(m2)
+Depolama hacmi V(m3)
+Isýtýcý kapasitesi Qy(Kcal/h)
+Sývý
+Katý
+By = (Qk x Zg x Zy) / (2 x Hu x n)
+V = ((By / Zy) / 860) x Ds
+Qy = Gy x c x (t2-t1)
+
+;; AÇIK GEN DEP
+[Print titles7],2
+Kazan kapasitesi (Watt)
+Tesisatta döküm kazan, panel radyatör veya konvektör kullanýlýyor
+Tank hacmi (Lt)
+Emniyet gidiþ
+Emniyet dönüþ
+Haberci
+dg = 15 + (1.40 * Sqr(Qk / 1000))
+dd = 15 + (0.93 * Sqr(Qk / 1000))
+dh = 15
+
+;; KAPALI GEN DEP
+[Print titles8],2
+Sistem kapasitesi Q(Watt)
+Cihaz türü
+Sistem su miktarý (Lt)
+Static yükseklik (m)
+Emniyet v. açma basýncý (bar)
+Gidiþ su sýc. tg(°C)
+Tank hacmi V(Lt)
+Vs (lt) = w (lt/kW) x Qk (kW)
+Ve (lt) = n x Vs
+Vv (lt) = %0.5 x Vs
+Po (Pa) = Phst + Peft
+Pe (Pa) = Paçma - Pkapama
+Vn (lt) = (Vv + Ve) x ((Pe + 1) / (Pe - Po))
+
+;; POMPA
+[Print titles9],2
+Toplam kapasite (Watt)
+Basýnç kaybý (kPa)
+Sýcaklýk farký dt(°C)
+Pompa verimi (%)
+Adedi
+Yedek adedi
+Debisi V(m3/h)
+Gücü N(Hp)
+Gücü N(kWatt)
+Qp = (Qk / (dt x 1000)) / Pompa adedi
+Nel = ((Qpomp x H x 1000) / (3600 x n x 75)) x 1.15
+
+;; SG ve SK
+[Print titles10],2
+Chiller tipi
+Toplam kapasite Q(Watt)
+Chiller giriþ sýc.(°C)
+Chiller çýkýþ sýc.(°C)
+Chiller sýcaklýk farký(°C)
+Chiller adedi
+Chiller yedek adedi
+SK. giriþ sýc. (°C)
+SK. çýkýþ sýc. (°C)
+SK. adedi
+Chiller kapasitesi Qe(Watt)
+SK kapasitesi. Qct(Watt)
+SK debisi V(m3/h)
+Hava soð.
+Su soð.
+
+;; Baca kesiti
+[Print titles11],2
+Baðlantý kan. gaz hýzý (m/sec)
+Baca gazý hýzý (m/sec)
+Baca gazý sýcaklýðý (°C)
+Dýþ sýcaklýk (°C)
+Kazan kapasitesi. Q
+Kazan verimi (%)
+Baca uzunluðu L(m)
+Baðlantý kan. uz. L(m)
+Yakýt tipi
+Brülör tipi
+Baca malzemesi
+Bað.kan. malz.
+Kazan kaybý PW (Pa)
+Bað.kan. kaybý (Pa)
+Baca kaybý (Pa)
+Toplam kayýp P (Pa)
+Kare a(mm)
+Dikd. axb (mm)
+Daire. R(mm)
+Atmosferik
+Üflemeli
+Doðalgaz
+Fuel-Oil
+Kömür
+Odun
+Lpg
+Havagazý
+Baðlantý kan.
+Baca
+Seçilen özel parçalar ve ksi'leri
+
+;; Boyler
+[Print titles12],2
+Bina tipi
+Kullanma f.
+Depolama f.
+Giriþ t(°C)
+Çýkýþ t(°C)
+Isýtma suyu ort. sýc.(°C)
+Adet
+Ortalama ani iht.(Lt/h)
+Hesaplanan boyler hacmi (Lt)
+Seçilen boyler hacmi (Lt)
+Isýtýcý kapasitesi (Watt)
+Isýtýcý alaný (m2)
+Cihaz türü, Su iht. (Lt/h), Adet
+
+;; Hidrofor
+[Print titles13],2
+Bina tipi
+Günlük su iht. (Lt/day)
+Insan sayýsý
+Depolama süresi (Day)
+Adet
+Depo hacmi (m3)
+Hidrofor hacmi (m3/h)
+Boru basýnç kaybý (kPa)
+Diðer kayýplar (kPa)
+Toplam basýnç kaybý (kPa)
+Cihaz türü, Su iht. (YB), Su iht. (Lt), Adet
+
+[Print titles14],2
+Min / Mak Hýz (m/sn)
+Min / Mak Isý
+Gidiþ / Dönüþ Sýc. (°C)
+Akýþkan tipi
+
+[Print titles15],2
+Adý
+Baðlantýsý
+Parça yükü
+Hat yükü
+Uzunluk L (m)
+Debisi V (m3/h)
+Hýz (m/sn)
+Boru çapý (mm) - (inc)
+Basýnç kaybý R(Pa/m)
+Basýnç kaybý RL(Pa)
+Özel parça f (ksi)
+Özel parça BK. Z(Pa)
+Toplam basýnç kaybý RL+Z(Pa)
+Boru tipi
+
+[Print titles16],2
+Adý
+Özel parça açýklamasý
+Baðlantý þekli
+Özel parça f (ksi)
+Adet
+Toplam ksi
+Özel parça basýnç kaybý Z(Pa)
+Vidalý
+Flanþlý
+
+;;TEMIZSU
+[Print titles17],2
+Min / Mak Hýz (m/sn)
+Min / Mak Yük (YB/MB)
+Akýþkan sýc. (°C)
+Akýþkan tipi
+
+;;TEMIZSU BK
+[Print titles18],2
+Adý
+Baðlantýsý
+Yükü Q (YB)
+Hat yükü Qh (YB/MB)
+Uzunluk L (m)
+Debisi V (Lt/sn)
+Hýz (m/sn)
+Boru çapý (mm) - (inc)
+Basýnç kaybý R(Pa/m)
+Basýnç kaybý RL(Pa)
+Özel parça f (ksi)
+Özel parça BK. Z(Pa)
+Toplam basýnç kaybý RL+Z(Pa)
+Boru tipi
+
+;;METRAJ
+[Print titles19],2
+No
+Açýklama
+Miktar
+Birim
+Notlar

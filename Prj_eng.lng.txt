@@ -1,0 +1,865 @@
+
+[DD manufacturer],2
+Manufacturer
+Product type
+Manufacturer
+Adress1
+Adress2
+ZIP
+City
+Country
+Postal code
+Telephone
+Fax
+Manufacturer code
+
+[DD boiler],2
+Mark
+Type
+Fuel type
+Standart
+Max. work pressure (Bar)
+BBBF No
+Type
+Name
+Thermal power (kWatt)
+Height (mm)
+Length (mm)
+Width (mm)
+Volume (Lt)
+weight (Kg)
+Smoke duct connector (mm)
+Gas-side resistance (Pa)
+Boiler yield (%)
+Description
+Manufacturer code
+
+[DD burner],2
+Mark
+Capacity min. (kWatt)
+Capacity max. (kWatt)
+Fuel type
+Standard
+Max. gas inlet pressure (mbar)
+Engine power (kWatt)
+BBBF No
+Type
+Name
+Weight (Kg)
+Description
+Manufacturer code
+
+[DD water heater],2
+Mark
+Standard
+BBBF No
+Type
+Name
+Volume (Lt)
+Height (mm)
+Lenght (mm)
+Width (mm)
+Weight (Kg)
+Description
+Manufacturer code
+
+[DD chiller],2
+Chiller
+Standard
+BBBF No
+Manufacture type
+Type
+Capacity (kWatt)
+Weight (Kg)
+Engine power (kWatt)
+Condenser area (m2)
+Evap. volume (Lt)
+Evap. connection (")
+Cond. connection (")
+Description
+Manufacturer code
+
+[DD cold tower],2
+Mark
+Standard
+BBBF No
+Type
+Capacity (Watt)
+Capacity (m3/h)
+Weight (Kg)
+Engine power (kWatt)
+Description
+Manufacturer code
+
+[DD exp. tank],2
+Mark
+Standard
+BBBF No
+Type
+Name
+Volume (Lt)
+Work pressure (bar)
+Height (mm)
+Length (mm)
+Width (mm)
+Weight (Kg)
+Inlet diameter (")
+Description
+Manufacturer code
+
+[DD air pres. tank],2
+Mark
+Standard
+BBBF No
+Type
+Tank volume (m3)
+Capacity1 (m3/h)
+Pressure1 (Pa)
+Capacity2 (m3/h)
+Pressure2 (Pa)
+Capacity3 (m3/h)
+Pressure3 (Pa)
+Capacity4 (m3/h)
+Pressure4 (Pa)
+Capacity5 (m3/h)
+Pressure5 (Pa)
+Rotation (d/d)
+Engine power (kWatt)
+Weight (Kg)
+Connection diameter (")
+Description
+Manufacturer code
+
+[DD pump],2
+Mark
+Standard
+BBBF No
+Type
+Capacity1 (m3/h)
+Pressure1 (Pa)
+Capacity2 (m3/h)
+Pressure2 (Pa)
+Capacity3 (m3/h)
+Pressure3 (Pa)
+Capacity4 (m3/h)
+Pressure4 (Pa)
+Capacity5 (m3/h)
+Pressure5 (Pa)
+Rotation (d/d)
+Engine power (kWatt)
+Weight (Kg)
+Connection diameter (")
+Description
+Manufacturer code
+
+[Boiler window],2
+Boiler calculation
+General
+Calculation
+Selection
+Description
+Fuel kind
+Heat necessery Q(Watt)
+Supply pice
+Fuel type
+Heat benefit from boiler per area (Watt/m2)
+Pcs
+Spare
+Boiler capacity (Watt)
+Coil area (m2)
+Library
+Mark
+Type
+Fluid/Gas
+Solid
+&Quick select
+&Save
+&New
+&Del
+&Close
+Insulated from warm spaces
+Insulated from cold spaces
+From cold spaces
+
+[Burner window],2
+Burner calculation
+General
+Calculation
+Selection
+Description
+Boiler capacity (Watt)
+Fuel type
+Fuel lower heat value (kJ/Kg)
+Burner yield (%)
+Pcs
+Capacity (Kg/h)
+Library
+Mark
+Type
+&Quick select
+&Save
+&New
+&Del
+&Close
+
+[Fuel quantity calculation],2
+Fuel quantity calculation
+General
+Calculation
+Results
+Description
+Fuel kind
+Boiler capacity (Watt)
+Fuel type
+Fuel lower heat value (kJ/Kg)
+Fuel spesific heat (kJ/Kg°C)
+Fuel volume (Kg/m3)
+Daily work time (h)
+Yearly work time (Day)
+Boiler yield (%)
+Storage time (Day)
+Burner capacity Gy(Kg/h)
+Yearly fuel quantity (Kg/Yea)
+Storage space F(m2)
+Storage volume V(m3)
+Heater capacity Qy(Watt)
+Fluid
+Solid
+&Save
+&New
+&Del
+&Close
+
+[Exp. tank open type],2
+Expansion tank open type
+General
+Calculation
+Description
+Boiler capacity (Watt)
+Heating system type
+Tank volume (Lt)
+Safety supply
+Safety return
+Caller
+System water volume (Lt)
+&Save
+&New
+&Del
+&Close
+
+[Exp. tank close type],2
+Expansion tank close type
+General
+Calculation
+Selection
+Description
+system capacity Q(Watt)
+Apparatus type
+System water volume (Lt)
+Static height (m)
+Safety valve open pressure (bar)
+Supply water temp. tg(°C)
+Tank volume V(Lt)
+Library
+Mark
+Type
+&Quick select
+&Save
+&New
+&Del
+&Close
+
+[Pump calculate],2
+Pump calculate
+General
+Calculation
+Select
+Description
+Total capacity (Watt)
+Pressure loss (Pa)
+Temperature diffrent dt(°C)
+Pump yield (%)
+Pcs
+Spare
+Volume V(m3/h)
+Power N(Hp)
+Power N(kWatt)
+Library
+Mark
+Type
+&Quick select
+&Save
+&New
+&Del
+&Close
+&Graph
+
+[Chiller and cold tower calculation],2
+Chiller and cold tower calculation
+General
+Calculation
+Results
+Chiller selection
+Cold tower selection
+Description
+Chiller type
+Total capacity Q(Watt)
+Chiller inlet temp.(°C)
+Chiller outlet temp.(°C)
+Chiller temp. dif.(°C)
+Chiller pcs
+Chiller spare
+CT. inlet temp. (°C)
+CT outlet temp. (°C)
+CT. pcs
+Chiller capacity Qe(Watt)
+CT capacity Qct(Watt)
+CR volume V(m3/h)
+Air cooled
+Water cooled
+Library
+Mark
+Type
+&Quick select
+&Save
+&New
+&Del
+&Close
+
+[Air pressure tank],2
+Domestic cold water / Hydrophor
+General
+Calculation
+Inputs
+Selection
+Description
+Build type
+Daily water consumption of the building (lt/day)
+The total number of people in the structure
+Storage time (day)
+Storage volume(m3)
+Hydrophor flow rate(m3/h)
+Pipe pressure loss (Pa)
+Other pressure loss (Pa)
+Total pressure loss (Pa)
+Appliances type
+Water need (YB)
+Water need (Lt)
+Pcs
+Library
+Mark
+Type
+&Quick select
+&Save
+&New
+&Del
+&Close
+&Graph
+
+[Water heater calculation],2
+Domestic hot water / Water heater
+General
+Inputs
+Calculation
+Selection
+Description
+Build type
+Usege f.
+Storege f.
+Inlet t(°C)
+Outlet t(°C)
+Supply water mean temp.(°C)
+Appliances type
+Water need. (Lt/h)
+Pcs
+Meanly request (Lt/h)
+Water heater volume (Lt)
+Calculated
+Selected
+Heater capacity (Watt)
+Coil area (m2)
+Library
+Mark
+Type
+&Quick select
+&Save
+&New
+&Del
+&Close
+
+[Chimney calculation],2
+DIN 4705 Chimney Calculation
+General
+Inputs
+Calculation
+Special devices
+Results
+Descripton
+Connectiob duct gas flow rate (m/sec)
+Chimney duct gas flow rate (m/sec)
+Chimney duct gaz temperature (°C)
+Outdoor air temp. (°C)
+Boiler capacity Q
+Boiler efficiency (%)
+Chimney lenght L(m)
+Connection duct lenghth L(m)
+Fuel type
+Burner type
+Chimney material
+connection duct material
+Special devices list
+Pcs
+Selected special devices
+Boiler loss PW (Pa)
+Connection loss (Pa)
+Chimney loss (Pa)
+Total loss P (Pa)
+Square a(mm)
+Rect. axb (mm)
+Diameter R(mm)
+Atmospheric
+With Fan
+Naturelgass
+Fuel-Oil
+Coal
+Wood
+Lpg
+Gas
+Connection duct
+Chimney
+C&alculate
+&Save
+&New
+&Delete
+&Close
+
+[Heating/Cooling pipe diameter],2
+Heating/Cooling pipe diameter
+General
+Installation info
+Volume info
+Diameters
+Special devices
+Descriptions
+Min.velocity (m/sn)
+Max.velocity (m/sn)
+Min.heat
+Max.heat
+Supply (°C)
+Return (°C)
+Temp.dif. (°C)
+Flouid type
+Name
+Conect
+Section load
+Line load
+Length L(m)
+Pipe type
+Name
+Volume V(m3/h)
+Velocity (m/sn)
+Pipe diameter DN (mm) - (inc)
+Pressure loss R(Pa/m)
+Name
+Connection type
+Special devices name
+(ksi)
+Pcs
+Total ksi
+Total pressure loss PD R(Pa)
+Screwed
+Flanged
+&Big list
+S&mall list
+&Add
+&Del
+&Insert
+A&pply
+&Calculate
+Critical &line
+&Feature
+Cl&ose
+&Save
+&New
+D&el
+
+[Heating/Cooling pipe diameter list1],2
+Name
+Connection
+Section load (Kcal/h)
+Line load (Kcal/h)
+Length L(m)
+Volume V(m3/h)
+Velocty (m/sn)
+Pipe diameter DN (mm) - (inc)
+Pressure loss R(Pa/m)
+Pressure loss RL(Pa)
+Local loss coefficient f(ksi)
+Special devices loss R(Pa)
+Total loss R(Pa)
+Pipe type
+
+[Special devices list],2
+Name
+Connection type
+ksi
+Pcs
+Loss coefficient(ksi)
+Total pressure drop R(Pa)
+
+[Domestic water pipe diameter],2
+Domestic water pipe diameter
+General
+Instalation info
+Volume info
+Pipe diameter
+Spacial devices
+Descriptions
+Min.velocity (m/sn)
+Max.velocity (m/sn)
+Min.YB/MB
+Max.YB/MB
+Water temp.(°C)
+Fluid type
+Name
+Connection
+Water need (YB/MB)
+Water need (Lt/sn)
+Line water volume
+Length L(m)
+Pipe type
+Name
+Volume V(Lt/sn)
+Velocity (m/sn)
+Pipe diameter DN (mm) - (inc)
+Pressure loss R(Pa/m)
+Name
+Connection type
+Special devices name
+(ksi)
+Pcs
+Total ksi
+T. PL. PD R(Pa)
+Screwed
+Flanged
+&Big list
+S&mall list
+&Add
+&Del
+&Insert
+A&pply
+&Calculate
+Critical &line
+&Feature
+Cl&ose
+&Save
+&New
+D&el
+
+[Domestic water pipe diameter list],2
+Name
+Connect
+Water need (YB/MB)
+Line load (YB/MB)
+Length (m)
+Volume Q(Lt/sn)
+Velocity V(m/sn)
+Pipe diameter DN (mm) - (inc)
+Pressure loss R(Pa/m)
+Pressure loss RL(Pa)
+Local loss coefficient f(ksi)
+Special devices loss R(Pa)
+Total pressure loss RL(Pa)
+Pipe type
+
+[Critical line selection],2
+Critical line
+Total pressure drop RL+Z(Pa)
+&Print
+&Close
+
+[Material list],2
+Material features list
+No
+Description
+Quantity
+Unit
+Nots
+Pipe
+M.
+Pcs
+&Print
+&Close
+
+[Print titles2],2
+Project no
+Revision
+Project name
+Subject
+Calc
+Check
+Date
+Page No
+Library
+Mark
+Type
+CT Library
+CT Mark
+CT Type
+
+[Print titles3],2
+BOILER CALCULATION
+CHIMNEY SECTION CALCULATION
+BURNER CALCULATION
+FUEL QUANTITY CALCULATION
+EXPANSION TANK OPEN TYPE
+EXPANSION TANK CLOSE TYPE
+PUMP VOLUME AND POWER CALCULATION
+CHILLER/COLD TOWER CALCULATION
+DOMESTIC HOT WATER AND WATER HEATER CALCULATION
+DOMESTIC COLD WATER AND HYDROPHOR SELECTION
+DOMESTIC WATER PIPE DIAMETER AND PRESSURE LOSS CALCULATION
+HEATING/COOLING WATER PIPE AND PRESSURE LOSS CALCULATION
+SPECIAL DEVICES
+CRITICAL LINE SELECTION
+MATERIAL LIST
+
+;; KAZAN
+[Print titles4],2
+Fuel kind
+Heat necessery Q(Watt)
+Supply pipe
+Fuel type
+Heat benefit from boiler per area (Watt/m2)
+Pcs
+Spare
+Boiler capacity (Watt)
+Coil area (m2)
+Fluid/Gas
+Solid
+Insulated from warm spaces
+Insulated from cold spaces
+From cold spaces
+F = Qh x (1 + Zr) / K
+Qk = Qh * (Load division) x 1.1
+
+;; BRÜLÖR
+[Print titles5],2
+Boiler capacity (Watt)
+Fuel type
+Fuel lower heat value (kJ/Kg)
+Burner yield (%)
+Pcs
+Capacity (Kg/h)
+Gy = (Qk / (Hu x n)) / Pcs
+
+;; YAKIT DEPOSU
+[Print titles6],2
+Fuel kind
+Boiler capacity (Watt)
+Fuel type
+Fuel lower heat value (kJ/Kg)
+Fuel spesific heat (kJ/Kg°C)
+Fuel volume (Kg/m3)
+Daily work time (h)
+Yearly work time (Day)
+Boiler yield (%)
+Storage time (Day)
+Burner capacity Gy(Kg/h)
+Yearly fuel quantity (Kg/Yea)
+Storage space F(m2)
+Storage volume V(m3)
+Heater capacity Qy(Watt)
+Fluid
+Solid
+By = (Qk x Zg x Zy) / (2 x Hu x n)
+V = ((By / Zy) / 860) x Ds
+Qy = Gy x c x (t2-t1)
+
+;; AÇIK GEN DEP
+[Print titles7],2
+Boiler capacity (Watt)
+Installation of cast iron boilers, panel radiators or convector used.
+Tank volume (Lt)
+Safety supply
+Safety return
+Caller
+dg = 15 + (1.40 * Sqr(Qk / 1000))
+dd = 15 + (0.93 * Sqr(Qk / 1000))
+dh = 15
+
+;; KAPALI GEN DEP
+[Print titles8],2
+system capacity Q(Watt)
+Apparatus type
+System water volume (Lt)
+Static height (m)
+Safety valve open pressure (bar)
+Supply water temp. tg(°C)
+Tank volume V(Lt)
+Vs (lt) = w (lt/kW) x Qk (kW)
+Ve (lt) = n x Vs
+Vv (lt) = %0.5 x Vs
+Po (Pa) = Phst + Peft
+Pe (Pa) = Popen - Pclose
+Vn (lt) = (Vv + Ve) x ((Pe + 1) / (Pe - Po))
+
+;; POMPA
+[Print titles9],2
+Total capacity (Watt)
+Pressure loss (Pa)
+Temperature diffrent dt(°C)
+Pump yield (%)
+Pcs
+Spare
+Volume V(m3/h)
+Power N(Hp)
+Power N(kWatt)
+Qp = (Qk / (dt x 1000)) / pcs
+Nel = ((Qpomp x H x 1000) / (3600 x n x 75)) x 1.15
+
+;; SG ve SK
+[Print titles10],2
+Chiller type
+Total capacity Q(Watt)
+Chiller inlet temp.(°C)
+Chiller outlet temp.(°C)
+Chiller temp. dif.(°C)
+Chiller pcs
+Chiller spare
+CT. inlet temp. (°C)
+CT outlet temp. (°C)
+CT. pcs
+Chiller capacity Qe(Watt)
+CT capacity Qct(Watt)
+CR volume V(m3/h)
+Air cooled
+Water cooled
+
+;; Baca kesiti
+[Print titles11],2
+Connectiob duct gas flow rate (m/sec)
+Chimney duct gas flow rate (m/sec)
+Chimney duct gaz temperature (°C)
+Outdoor air temp. (°C)
+Boiler capacity Q
+Boiler efficiency (%)
+Chimney lenght L(m)
+Connection duct lenghth L(m)
+Fuel type
+Burner type
+Chimney material
+connection duct material
+Boiler loss PW (Pa)
+Connection loss (Pa)
+Chimney loss (Pa)
+Total loss P (Pa)
+Square a(mm)
+Rect. axb (mm)
+Diameter R(mm)
+Atmospheric
+With Fan
+Naturelgass
+Fuel-Oil
+Coal
+Wood
+Lpg
+Gas
+Connection duct
+Chimney
+Selected special devices
+
+;; Boyler
+[Print titles12],2
+Build type
+Usege f.
+Storege f.
+Inlet t(°C)
+Outlet t(°C)
+Supply water mean temp.(°C)
+Pcs
+Meanly request (Lt/h)
+Calculated water geater volume (Lt)
+Selected water geater volume (Lt)
+Heater capacity (Watt)
+Coil area (m2)
+Appliances type, Water need. (Lt/h), Pcs
+
+;; Hidrofor
+[Print titles13],2
+Build type
+Daily water consumption of the building (lt/gün)
+The total number of people in the structure
+Storage time (gün)
+Pcs
+Storage volume(m3)
+Hydrophor flow rate(m3/h)
+Pipe pressure loss (Pa)
+Other pressure loss (Pa)
+Total pressure loss (Pa)
+Appliances type, Water need (YB), Water need (Lt), Pcs
+
+[Print titles14],2
+Min / Max Velocity (m/sn)
+Min / Max Heat
+Supply / return temp. (°C)
+Flued type
+
+[Print titles15],2
+Name
+Connection
+Section load
+Line load
+Length L (m)
+Volume V (m3/h)
+Velocity (m/sn)
+Pipe diameter (mm) - (inc)
+Pressure loss R(Pa/m)
+Pressure loss RL(Pa)
+Local loss coefficient f (ksi)
+Local pressure loss Z(Pa)
+Total pressure loss RL+Z(Pa)
+Pipe type
+
+[Print titles16],2
+Name
+Special devices description
+Connection type
+Local loss coefficient f (ksi)
+Pcs
+Total ksi
+Local pressure loss Z(Pa)
+Screwed
+Flanged
+
+;;TEMIZSU
+[Print titles17],2
+Min / Max Velocity (m/sn)
+Min / Max load (YB/MB)
+Flued temp. (°C)
+Flued type
+
+;;TEMIZSU BK
+[Print titles18],2
+Name
+Connection
+Section load Q (YB)
+Line load Qh (YB/MB)
+Length L (m)
+Volume V (Lt/sn)
+Velocity (m/sn)
+Pipe diameter (mm) - (inc)
+Pressure drop R(Pa/m)
+Pressure loss RL(Pa)
+Local loss coefficient f (ksi)
+Special devices loss. Z(Pa)
+Total loss RL+Z(Pa)
+Pipe type
+
+;;METRAJ
+[Print titles19],2
+No
+Description
+Quantity
+Unit
+Nots
